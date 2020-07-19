@@ -1,0 +1,35 @@
+install git bash from
+https://git-scm.com/download/win
+Leave it to default settings
+
+create a folder where you want to clone your online repo. for example: E:Git is your folder name.
+
+Open Git Bash 
+
+setup git config
+git config --global user.name "Your Name"
+git config --global user.email "youremail@domain.com"
+
+cd e:
+cd git
+Now it brings to the git repo you are going to clone in 
+
+Cloning a repo 
+git clone github link
+
+Adding new file to git
+Your new file is test.txt
+cd repo_name
+git add test.txt
+
+To check status 
+git status
+
+git commit -m "comment" test.txt
+
+To push it to Global repo
+git push -u origin master
+
+
+
+
