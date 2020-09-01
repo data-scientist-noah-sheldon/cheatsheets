@@ -3,6 +3,8 @@ Tips to create virtual environment
 #Create environment
 python3 -m venv virutal_environment_name
 
+#use cmd not powershell to activate environment
+
 #Activate Virtual Enivironment
 .\venv(Folder_Name)\virutal_environment_name\Scripts\activate
 
